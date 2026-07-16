@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class StaminaBarScript : MonoBehaviour
 {
+    public string staminaAmount;
+    public Animator staminaAnimator;
+    public 
     // Start is called before the first frame update
     void Start()
     { 

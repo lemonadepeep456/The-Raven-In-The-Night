@@ -1,0 +1,783 @@
+fileFormatVersion: 2
+guid: 3b82b315030d2b4448b5a6c6ef72eb13
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: StaminaBar(TRITN)-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5760
+        width: 1440
+        height: 1440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0593f65536ebe8746a07396d21d911ed
+      internalID: -1530561617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaBar(TRITN)-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 5760
+        width: 1440
+        height: 1440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7336e4865115945b1cf6419dc167fe
+      internalID: -1226838613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaBar(TRITN)-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 5760
+        width: 1440
+        height: 1440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f73491a3df39e645a2fdf0609df1521
+      internalID: -1866358778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaBar(TRITN)-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 5760
+        width: 1440
+        height: 1440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762240b9d80019c47a5ce9febc37c3ea
+      internalID: -414979058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaBar(TRITN)-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 5760
+        width: 1440
+        height: 1440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef7e9055977dfa43952e3e4ecac67fa
+      internalID: -1832747456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaBar(TRITN)-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 5760
+        width: 1440
+        height: 1440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576886a83b1121140b2f71ef595e5af7
+      internalID: -876585481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaBar(TRITN)-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4320
+        width: 1440
+        height: 1440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa510add6018e9a42bcab00e0230e870
+      internalID: -1981512562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaBar(TRITN)-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 4320
+        width: 1440
+        height: 1440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8f61a88e32df44d82e61ffd9d490fe
+      internalID: 1607784144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaBar(TRITN)-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 4320
+        width: 1440
+        height: 1440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b448f89a1c0084f971fb47e6391b2f
+      internalID: 1946430548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaBar(TRITN)-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 4320
+        width: 1440
+        height: 1440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3407be3869bd4414c86c86cdaa9d8fc8
+      internalID: -828890409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaBar(TRITN)-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 4320
+        width: 1440
+        height: 1440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44b4dd689d6cc24cbe546d7fb0c238f
+      internalID: -1505694252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaBar(TRITN)-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 4320
+        width: 1440
+        height: 1440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9156cb49abc89a4ba2fa150d2b7f52d
+      internalID: 781456508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaBar(TRITN)-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2880
+        width: 1440
+        height: 1440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d4413024dba6d46bd19f4ee6f0632b
+      internalID: -1937891663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaBar(TRITN)-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2880
+        width: 1440
+        height: 1440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a7931e033e4e24c9f04b9fa0f8b037
+      internalID: -1821144970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaBar(TRITN)-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2880
+        width: 1440
+        height: 1440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e37bb148cc75a546b34aeefbaf6d48c
+      internalID: -3526507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaBar(TRITN)-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 2880
+        width: 1440
+        height: 1440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b36f443f47a8cc4f94449a92f83735d
+      internalID: 1579073110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaBar(TRITN)-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 2880
+        width: 1440
+        height: 1440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dcf7991a01f2384bb718463a6d078c8
+      internalID: -1842381259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaBar(TRITN)-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 2880
+        width: 1440
+        height: 1440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757044f5201d74441bd1c72ee6f40e5c
+      internalID: -672621830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaBar(TRITN)-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 1440
+        height: 1440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a0fb276d2c4a047bd706beb7e0d9c4
+      internalID: 1691504063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaBar(TRITN)-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1440
+        width: 1440
+        height: 1440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc356bac41d7e84fb83404f2e04f2ab
+      internalID: -679033761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaBar(TRITN)-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1440
+        width: 1440
+        height: 1440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c43d7e53884d54ba8677b9056c870c
+      internalID: 565537360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaBar(TRITN)-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 1440
+        width: 1440
+        height: 1440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29250123c2570d49adc7e06357db0d7
+      internalID: 655877116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaBar(TRITN)-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 1440
+        width: 1440
+        height: 1440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fcbe83ba6e6c6f419d9c3230964b74d
+      internalID: 1056858744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaBar(TRITN)-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 1440
+        width: 1440
+        height: 1440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae81744ca599acf458d35eeefb0667d8
+      internalID: -2117639418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaBar(TRITN)-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1440
+        height: 1440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935b2f1debdefb04e9eb22654e35796c
+      internalID: 248599913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaBar(TRITN)-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 1440
+        height: 1440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f7c683ef2da6842ae37e611f199b09
+      internalID: 718393252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaBar(TRITN)-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 1440
+        height: 1440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ee19393811e5348806428902f8f447
+      internalID: -2132295672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaBar(TRITN)-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 0
+        width: 1440
+        height: 1440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aeb187c5d36b934da5e94a989c2f6c2
+      internalID: -1882445540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaBar(TRITN)-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 1440
+        height: 1440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ba27bb30349cc4c96f15105e4ae9e4
+      internalID: -1368834080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaBar(TRITN)-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 0
+        width: 1440
+        height: 1440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6b2997f2936b143824aa50e39c363d
+      internalID: 705768037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      StaminaBar(TRITN)-Sheet_0: -1530561617
+      StaminaBar(TRITN)-Sheet_1: -1226838613
+      StaminaBar(TRITN)-Sheet_10: -1505694252
+      StaminaBar(TRITN)-Sheet_11: 781456508
+      StaminaBar(TRITN)-Sheet_12: -1937891663
+      StaminaBar(TRITN)-Sheet_13: -1821144970
+      StaminaBar(TRITN)-Sheet_14: -3526507
+      StaminaBar(TRITN)-Sheet_15: 1579073110
+      StaminaBar(TRITN)-Sheet_16: -1842381259
+      StaminaBar(TRITN)-Sheet_17: -672621830
+      StaminaBar(TRITN)-Sheet_18: 1691504063
+      StaminaBar(TRITN)-Sheet_19: -679033761
+      StaminaBar(TRITN)-Sheet_2: -1866358778
+      StaminaBar(TRITN)-Sheet_20: 565537360
+      StaminaBar(TRITN)-Sheet_21: 655877116
+      StaminaBar(TRITN)-Sheet_22: 1056858744
+      StaminaBar(TRITN)-Sheet_23: -2117639418
+      StaminaBar(TRITN)-Sheet_24: 248599913
+      StaminaBar(TRITN)-Sheet_25: 718393252
+      StaminaBar(TRITN)-Sheet_26: -2132295672
+      StaminaBar(TRITN)-Sheet_27: -1882445540
+      StaminaBar(TRITN)-Sheet_28: -1368834080
+      StaminaBar(TRITN)-Sheet_29: 705768037
+      StaminaBar(TRITN)-Sheet_3: -414979058
+      StaminaBar(TRITN)-Sheet_4: -1832747456
+      StaminaBar(TRITN)-Sheet_5: -876585481
+      StaminaBar(TRITN)-Sheet_6: -1981512562
+      StaminaBar(TRITN)-Sheet_7: 1607784144
+      StaminaBar(TRITN)-Sheet_8: 1946430548
+      StaminaBar(TRITN)-Sheet_9: -828890409
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
