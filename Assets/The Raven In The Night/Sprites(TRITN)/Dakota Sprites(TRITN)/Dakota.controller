@@ -140,9 +140,6 @@ AnimatorStateMachine:
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
-    m_State: {fileID: 3396770403093487461}
-    m_Position: {x: 300, y: 130, z: 0}
-  - serializedVersion: 1
     m_State: {fileID: 764283281586856651}
     m_Position: {x: 530, y: 210, z: 0}
   - serializedVersion: 1
@@ -178,6 +175,12 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: 6427374593040692831}
     m_Position: {x: 530, y: 340, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 1889072108423658794}
+    m_Position: {x: 530, y: 540, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 6592969302905056235}
+    m_Position: {x: 530, y: 590, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -187,7 +190,7 @@ AnimatorStateMachine:
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: 3396770403093487461}
+  m_DefaultState: {fileID: 7289817000484832777}
 --- !u!91 &9100000
 AnimatorController:
   m_ObjectHideFlags: 0
@@ -248,15 +251,15 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &3396770403093487461
+--- !u!1102 &1889072108423658794
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: IdleTest
-  m_Speed: 0.5
+  m_Name: Dakota(SideIdleRemake)
+  m_Speed: 0.4
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
@@ -268,7 +271,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 2719ea2ddd6aab64c83445d657af3bbe, type: 2}
+  m_Motion: {fileID: 7400000, guid: 2e37831200de54f49a8023b3e29aa288, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -334,7 +337,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Dakota(SideWalkRemake)
-  m_Speed: 0.4
+  m_Speed: 0.6
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
@@ -373,6 +376,32 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: 6eeb83541f29eaf42a1b9f7879398488, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &6592969302905056235
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dakota(BackIdleRemake)
+  m_Speed: 0.4
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 558e01400971af545a4f6a64d53ac5e2, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

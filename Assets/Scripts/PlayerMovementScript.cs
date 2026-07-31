@@ -81,14 +81,14 @@ public class PlayerMovementScript : MonoBehaviour
             {
                 GetComponent<Transform>().position += leftDirection * Time.deltaTime;
                 GetComponent<Animator>().Play("Dakota(SideWalkRemake)");
-                GetComponent<SpriteRenderer>().flipX = true;
+                GetComponent<SpriteRenderer>().flipX = false;
                 playerFacing = -1;
             }
             else if (Input.GetKey(KeyCode.D))
             {
                 GetComponent<Transform>().position += rightDirection * Time.deltaTime;
                 GetComponent<Animator>().Play("Dakota(SideWalkRemake)");
-                GetComponent<SpriteRenderer>().flipX = false;
+                GetComponent<SpriteRenderer>().flipX = true;
                 playerFacing = 1;
             }
             else if (Input.GetKey(KeyCode.W))
@@ -103,9 +103,24 @@ public class PlayerMovementScript : MonoBehaviour
                 GetComponent<Animator>().Play("Dakota(FrontWalkRemake)");
                 playerFacing = -2;
             }
-            else
+            else if (playerFacing == -2)
             {
                 GetComponent<Animator>().Play("Dakota(FrontIdleRemake)");
+            }
+             else if (playerFacing == -1)
+            {
+                GetComponent<Animator>().Play("Dakota(SideIdleRemake)");
+                GetComponent<SpriteRenderer>().flipX = false;
+            }
+            else if (playerFacing == 1)
+            {
+                GetComponent<Animator>().Play("Dakota(SideIdleRemake)");
+                GetComponent<SpriteRenderer>().flipX = true;
+            }
+            else if (playerFacing == 2)
+            {
+                GetComponent<Animator>().Play("Dakota(BackIdleRemake)");
+             
             }
             if (Input.GetKey(KeyCode.Z) && normalForm == true && decayBarMax == true)
             {
